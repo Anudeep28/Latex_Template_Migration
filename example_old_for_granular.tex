@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\title{Old Template with Hierarchical Structure}
+
+\begin{document}
+
+\maketitle
+
+\section{Model Description}
+We propose a novel model with several key components.
+
+\subsection{Architecture}
+The architecture is based on a transformer design.
+It includes multiple attention layers for processing.
+
+\subsubsection{Encoder Design}
+The encoder uses 6 stacked layers.
+Each layer has multi-head attention.
+
+\paragraph{Attention Heads}
+We use 8 attention heads per layer.
+This allows the model to focus on different aspects.
+
+\subsubsection{Decoder Design}
+The decoder mirrors the encoder structure.
+It adds cross-attention to encoder outputs.
+
+\subsection{Training Procedure}
+Training involves two distinct phases.
+
+\subsubsection{Pre-training}
+Pre-training uses a large unsupervised corpus.
+We employ masked language modeling as the objective.
+Training runs for 1 million steps.
+
+\paragraph{Gaming zone}
+Pre-training uses a large unsupervised corpus.
+We employ masked language modeling as the objective.
+Training runs for 1 million steps.
+
+\subsubsection{Fine-tuning}
+Fine-tuning adapts the model to specific tasks.
+We use a smaller learning rate of 1e-5.
+Fine-tuning typically requires 10k steps.
+
+\subsection{Optimization}
+We use Adam optimizer with specific hyperparameters.
+
+\paragraph{Learning Rate}
+Initial learning rate is set to 1e-4.
+We apply warmup for the first 10% of steps.
+
+\paragraph{Batch Size}
+Batch size is 32 for pre-training.
+For fine-tuning, we use batch size 16.
+
+\section{Experiments}
+Comprehensive experiments validate our approach.
+
+\subsection{Datasets Used}
+We evaluate on three benchmark datasets.
+
+\subsection{Results Summary}
+Our model achieves state-of-the-art performance.
+
+\end{document}

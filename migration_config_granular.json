@@ -1,0 +1,24 @@
+{
+    "mapping_mode": "granular",
+    "section_mapping": {
+        "Model Description": "Methodology",
+        "Architecture": "Model Architecture",
+        "Encoder Design": "Network Design",
+        "Decoder Design": "Network Design",
+        "Training Procedure": "Training Methodology",
+        "Pre-training": "Initial Training Phase",
+        "Gaming zone": "Gaming zone",
+        "Fine-tuning": "Adaptation Phase",
+        "Optimization": "Hyperparameters",
+        "Learning Rate": "Learning Configuration",
+        "Batch Size": "Batch Configuration",
+        "Experiments": "Experimental Evaluation",
+        "Datasets Used": "Benchmark Datasets",
+        "Results Summary": "Performance Analysis"
+    },
+    "new_sections_content": {
+        "Acknowledgments": "We thank all contributors and reviewers for their valuable feedback.",
+        "Future Work": "We plan to extend this work in several directions in the future.",
+        "Annex":"This will be Crisil annex page"
+    }
+}
